@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.layout {
+    margin-inline: 240px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.header__navigation {
+    display: flex;
+    gap: 80px;
+}
+
+.header__navigation-el {
+    text-decoration: none;
+    color: rgba(39, 42, 51, 1);
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.main {
+    margin-top: 80px ;
+}
+
+
+.main__title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards__card {
+    display: flex;
+    max-width: 705px;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.cards__card-img {
+
+}
+
+.card__content {
+
+}
+
+.card__content-title {
+
+}
+
+.card__content-status {
+
+}
+
+.status__mark {
+
+}
+
+.status-desc {
+
+}
+
+.card__content-btn {
+
+}
